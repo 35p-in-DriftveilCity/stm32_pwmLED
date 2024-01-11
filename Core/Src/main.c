@@ -117,7 +117,7 @@ int main(void)
   	htim1.Instance ->CCR3 = rgb.b * 999;
   	hsv.h += 0.01;
   	if(hsv.h >= 1.0) hsv.h = 0.0;
-  	HAL_Delay(50);
+  	HAL_Delay(500);
 //  	htim1.Instance->CCR1 = 10-1;
 //  	htim1.Instance->CCR2 = 10-1;
 //  	htim1.Instance->CCR3 = 10-1;
